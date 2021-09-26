@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  font-family: 'Rubik', sans-serif;
+}
+
+:root {
+  --background: #e5e5e5;
+  --dark-blue: #12295B;
+  --yellow: #FFF53D;
+  --green: #087f5b;
+  --purple: #8762f7;
+  --grey: #F0F0F0;
+  --dark-grey: #F1F3F5  ;
+  --main-container: #ffffff;
+  --progress-bar: #59698C;
+}
