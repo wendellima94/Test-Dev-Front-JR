@@ -61,11 +61,13 @@ export default {
   justify-content: space-between;
 }
 .card-wrapper {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   width: 90%;
   height: 400px;
   margin: 30px 14px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
 }
 </style>

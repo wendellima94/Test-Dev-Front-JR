@@ -12,8 +12,10 @@ export default {
 .side-bar {
   width: 10vw;
   height: 100%;
+
   display: block;
   background-color: var(--dark-blue);
+  
   position: absolute;
 }
 </style>

@@ -13,7 +13,8 @@
             width="24"
             fill="#12295b"
             icon-style="line"
-          ></unicon>
+          >
+          </unicon>
         </article>
 
         <article >
@@ -22,7 +23,8 @@
             width="24"
             fill="#12295b"
             icon-style="line"
-          ></unicon>
+          >
+          </unicon>
         </article>
       </section>
     </header>
@@ -82,9 +84,11 @@ export default {
 .container {
   display: flex;
   flex-direction: column;
+
   min-width: 460px;
   width: 600px;
   height: 300px;
+
   background-color: var(--dark-grey);
 
   padding: 16px;
@@ -98,6 +102,7 @@ export default {
 .concluded {
   width: 90px;
   height: 22px;
+
   font-size: 14px;
 
   display: flex;
@@ -106,12 +111,14 @@ export default {
   text-align: center;
 
   border-radius: 12px;
+
   background-color: var(--green);
   color: #ffffff;
 }
 .certified {
   width: 90px;
   height: 22px;
+
   font-size: 14px;
 
   display: flex;
@@ -120,6 +127,7 @@ export default {
   text-align: center;
 
   border-radius: 12px;
+
   background-color: var(--purple);
   color: #ffffff;
 
@@ -179,6 +187,7 @@ header {
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  
   border-radius: 8x;
 
   height: 40px;

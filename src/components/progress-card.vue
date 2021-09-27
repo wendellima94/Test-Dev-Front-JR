@@ -14,11 +14,21 @@
     <section class="progress-wrapper">
       <section class="info-wrapper">
         <aside>
-    <unicon name="graduation-cap" width="16" fill="gold" icon-style="line"></unicon>
+          <unicon
+            name="graduation-cap"
+            width="16"
+            fill="gold"
+            icon-style="line"
+          ></unicon>
           <span>Básico</span>
         </aside>
         <aside>
-        <unicon name="clock" fill="gold" width="16" icon-style="line"></unicon>
+          <unicon
+            name="clock"
+            fill="gold"
+            width="16"
+            icon-style="line"
+          ></unicon>
           <span>01h30</span>
         </aside>
       </section>
@@ -40,16 +50,18 @@ export default {
 
 <style scoped>
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+
   background-color: var(--dark-blue);
+
   min-width: 380px;
   width: 380px;
   height: 300px;
 
   border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-evenly;
   padding: 16px 24px;
 }
 
@@ -64,13 +76,15 @@ span {
 }
 
 .progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
   width: 330px;
   height: 10px;
 
   background-color: var(--progress-bar);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+
   border-radius: 8px;
 
   margin: 0 0 8px 0;
@@ -79,14 +93,17 @@ span {
 .progress-bar::before {
   text-align: center;
   content: "";
+  
   height: 8px;
   width: 78%;
+
   background-color: #ffffff;
   border-radius: 8px;
 }
 .info-wrapper {
   display: flex;
   align-items: center;
+
   padding-right: 10px;
 }
 
@@ -94,6 +111,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
   margin: 0 8px 0 0;
 }
 
@@ -112,16 +130,17 @@ span {
 }
 
 .text-progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
   width: 90px;
   height: 22px;
   font-size: 16px;
 
   background-color: #41669a;
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   border-radius: 12px;
 }
 </style>
